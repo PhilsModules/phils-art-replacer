@@ -50,7 +50,7 @@ Du hast dir ein teures, wunderschönes Token-Art-Pack gekauft oder ein tolles Mo
 3.  Klicke auf **Install Module**.
 4.  Füge die folgende **Manifest URL** unten ein:
     ```text
-    [https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json](https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json)
+    https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json
     ```
 5.  Klicke auf **Install**.
 
@@ -87,7 +87,7 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
 3.  Click **Install Module**.
 4.  Paste the following **Manifest URL** into the field:
     ```text
-    [https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json](https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json)
+    https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json
     ```
 5.  Click **Install**.
 
@@ -109,3 +109,4 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
