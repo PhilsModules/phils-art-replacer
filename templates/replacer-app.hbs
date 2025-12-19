@@ -1,0 +1,51 @@
+<div class="matches-list">
+    {{#each actors}}
+    <div class="match-item {{#if this.hasOnlyTokens}}only-tokens{{/if}}">
+        <div class="comparison">
+            <div class="img-container">
+                <span class="label">{{localize "PhilsArtReplacer.Current"}}</span>
+                <img src="{{this.currentImg}}" class="match-img clickable-img" id="current-img-{{this.id}}"
+                    title="{{localize 'PhilsArtReplacer.ClickToEnlarge'}}">
+                <div class="img-meta">
+                    <div class="meta-filename" title="{{this.currentImg}}">...</div>
+                    <div class="meta-details" id="meta-current-{{this.id}}">...</div>
+                </div>
+            </div>
+            <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="img-container">
+                <span class="label">{{localize "PhilsArtReplacer.New"}}</span>
+                <img src="{{this.selectedMatch}}" class="match-img preview-img clickable-img"
+                    data-actor-id="{{this.id}}" title="{{localize 'PhilsArtReplacer.ClickToEnlarge'}}">
+                <div class="img-meta">
+                    <div class="meta-filename" id="filename-new-{{this.id}}">...</div>
+                    <div class="meta-details" id="meta-new-{{this.id}}">...</div>
+                </div>
+            </div>
+        </div>
+        <div class="match-details">
+            <h3>{{this.name}}</h3>
+            <div class="options">
+                <label class="option-label" title="{{localize 'PhilsArtReplacer.KeepCurrent'}}">
+                    <input type="radio" name="selection-{{this.id}}" data-actor-id="{{this.id}}"
+                        data-current-img="{{this.currentImg}}" value="KEEP" {{checked this.isKeepSelected}}>
+                    <div class="path-info">
+                        <span class="filename" style="font-style: italic;">{{localize
+                            "PhilsArtReplacer.KeepCurrent"}}</span>
+                        <span class="directory">{{localize "PhilsArtReplacer.DoNotModify"}}</span>
+                    </div>
+                </label>
+                {{#each this.matches}}
+                <label class="option-label {{#if this.isToken}}option-token{{/if}}" title="{{this.path}}">
+                    <input type="radio" name="selection-{{../id}}" data-actor-id="{{../id}}" value="{{this.path}}"
+                        {{checked this.isSelected}}>
+                    <div class="path-info">
+                        <span class="filename">{{this.filename}}</span>
+                        <span class="directory">{{this.directory}}</span>
+                    </div>
+                </label>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

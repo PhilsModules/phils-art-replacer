@@ -1,0 +1,15 @@
+{
+    "PhilsArtReplacer.Title": "Phil's Bilder-Austauscher",
+    "PhilsArtReplacer.Indexing": "Indiziere Dateien... das kann einen Moment dauern.",
+    "PhilsArtReplacer.Scanning": "Phil's Art Replacer | Scanne alle Akteure...",
+    "PhilsArtReplacer.FoundMatches": "Phil's Art Replacer | {count} Akteure mit passenden Bildern gefunden.",
+    "PhilsArtReplacer.ReplacedCount": "Bilder für {count} Akteure ersetzt.",
+    "PhilsArtReplacer.KeepCurrent": "Aktuelles Bild behalten",
+    "PhilsArtReplacer.DoNotModify": "Diesen Akteur nicht ändern",
+    "PhilsArtReplacer.IgnoreTokenArt": "Token-Bilder ignorieren",
+    "PhilsArtReplacer.ReplaceAll": "Alle ausgewählten ersetzen",
+    "PhilsArtReplacer.Current": "Aktuell",
+    "PhilsArtReplacer.New": "Neu",
+    "PhilsArtReplacer.ClickToEnlarge": "Zum Vergrößern klicken",
+    "PhilsArtReplacer.Unknown": "Unbekannt"
+}

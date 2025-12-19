@@ -1,2 +1,82 @@
-# phils-art-replacer
-Data-Entry is hard work. This module makes it easier by finding missing artwork for your actors. It scans your entire Foundry world (including modules and system files) for image files that match the names of your actors.  If it finds a match (e.g. Actor "Goblin King" -> File "goblin_king.png"), it offers to replace the artwork for you.
+<div align="center">
+
+# Phil's Art Replacer
+
+![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
+![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+[![Version](https://img.shields.io/badge/version-v1.1.0-blue)](https://github.com/PhilsModules/phils-art-replacer/releases)
+[![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
+
+<br>
+
+**Find missing artwork for your actors instantly.**
+<br>
+*Finde fehlende Bilder für deine Akteure sofort.*
+
+</div>
+
+<br>
+
+# <img src="https://flagcdn.com/48x36/de.png" width="28" height="21" alt="DE"> Deutsche Anleitung
+
+**Bringe deine Welt zum Strahlen – ohne hunderte Klicks.**
+
+Du hast dir ein teures, wunderschönes Token-Art-Pack gekauft oder ein tolles Modul mit Bildern installiert? Aber jetzt stehst du vor dem Problem: Du hast 1500 NPCs in deiner Welt, die alle noch die Standard-Bilder haben oder aktualisiert werden müssten.
+
+**Phil's Art Replacer** nimmt dir diese Arbeit ab. Es scannt deine gesamte Welt und findet automatisch passende Bilder für deine Akteure, egal wo sie sich verstecken (Systeme, Module, Uploads).
+
+## 🚀 Funktionen
+
+*   🔍 **Smart Scanning:** Findet Bilder auch tief versteckt in Modul-Ordnern.
+*   ↔️ **Bidirektionale Suche:** Findet "Walkena" Bilder auch für "Walkena Priestess" Akteure (und umgekehrt).
+*   👀 **Vergleichs-Ansicht:** Siehe "Aktuelles Bild" und "Neuer Vorschlag" direkt nebeneinander.
+*   📏 **Metadaten:** Zeigt Auflösung (z.B. 512x512) und Dateigröße an, damit du deine Welt nicht aufbläht.
+*   🛡️ **Token Filter:** Option, reine Token-Bilder zu ignorieren, wenn du lieber Portraits suchst.
+*   🇩🇪 **Lokalisiert:** Komplett auf Deutsch verfügbar.
+
+## 📖 Bedienung
+
+1.  Öffne das Modul (z.B. über Makro oder Button).
+2.  Das Modul scannt alle Akteure und Dateien.
+3.  Ein Fenster öffnet sich mit allen Vorschlägen.
+4.  Wähle aus, was du behalten oder ändern willst.
+5.  Klicke auf **"Alle ausgewählten ersetzen"**.
+
+---
+
+# <img src="https://flagcdn.com/48x36/gb.png" width="28" height="21" alt="EN"> English Instructions
+
+**Make your world shine – without thousands of clicks.**
+
+Did you buy an expensive, beautiful Token Art Pack? Or installed a module with great art? But now you face the nightmare: You have 1500 NPCs in your world that need to be updated one by one.
+
+**Phil's Art Replacer** solves this. It scans your entire world and automatically matches your actors with the correct images found in your installed modules.
+
+## 🚀 Key Features
+
+*   🔍 **Smart Scanning:** Finds images deep inside module folders.
+*   ↔️ **Bidirectional Search:** Finds "Walkena" art for "Walkena Priestess" actors.
+*   👀 **Compare View:** See "Current Art" vs "New Suggestion" side-by-side.
+*   📏 **Metadata:** Shows resolution and file size to avoid world bloat.
+*   🛡️ **Token Filter:** Option to ignore token-style art if you prefer portraits.
+*   🇺🇸 **Localized:** Fully available in English.
+
+## 📖 How to Use
+
+1.  Open the module.
+2.  It scans all actors and files.
+3.  Review the suggested matches.
+4.  Select what to keep or change.
+5.  Click **"Replace All Selected"**.
+
+<div align="center">
+    <h2>❤️ Support the Development</h2>
+    <p>If you enjoy this module and want to support open-source development for Foundry VTT, check out my Patreon!</p>
+    <p>Gefällt dir das Modul? Unterstütze die Weiterentwicklung auf Patreon!</p>
+    <a href="https://www.patreon.com/PhilsModules">
+        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" width="200" />
+    </a>
+    <br><br>
+    <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
+</div>
