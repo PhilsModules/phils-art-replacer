@@ -38,7 +38,7 @@ Du hast dir ein teures, wunderschönes Token-Art-Pack gekauft oder ein tolles Mo
 ## 🚀 Funktionen
 
 * 🔍 **Smart Scanning:** Findet Bilder auch tief versteckt in Modul-Ordnern.
-* ↔️ **Bidirektionale Suche:** Findet "Walkena" Bilder auch für "Walkena Priestess" Akteure (und umgekehrt).
+* ↔️ **Bidirektionale Suche:** Findet "Nyxara" Bilder auch für "Nyxara Priestess" Akteure (und umgekehrt).
 * 👀 **Vergleichs-Ansicht:** Siehe "Aktuelles Bild" und "Neuer Vorschlag" direkt nebeneinander.
 * 📏 **Metadaten:** Zeigt Auflösung (z.B. 512x512) und Dateigröße an, damit du deine Welt nicht aufbläht.
 * 🛡️ **Token Filter:** Option, reine Token-Bilder zu ignorieren, wenn du lieber Portraits suchst.
@@ -75,7 +75,7 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
 ## 🚀 Key Features
 
 * 🔍 **Smart Scanning:** Finds images deep inside module folders.
-* ↔️ **Bidirectional Search:** Finds "Walkena" art for "Walkena Priestess" actors.
+* ↔️ **Bidirectional Search:** Finds "Nyxara" art for "Nyxara Priestess" actors.
 * 👀 **Compare View:** See "Current Art" vs "New Suggestion" side-by-side.
 * 📏 **Metadata:** Shows resolution and file size to avoid world bloat.
 * 🛡️ **Token Filter:** Option to ignore token-style art if you prefer portraits.
@@ -109,4 +109,5 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
