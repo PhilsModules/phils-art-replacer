@@ -1,20 +1,29 @@
 <div align="center">
 
-# Phil's Art Replacer
+# Phil's Art Replacer 🎨
 
-![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
 ![Foundry v13 Compatible](https://img.shields.io/badge/Foundry-v13-brightgreen)
+![Foundry v12 Compatible](https://img.shields.io/badge/Foundry-v12-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-[![Version](https://img.shields.io/badge/version-v1.1.0-blue)](https://github.com/PhilsModules/phils-art-replacer/releases)
+[![Version](https://img.shields.io/badge/Version-1.1.0-orange)](https://github.com/PhilsModules/phils-art-replacer/releases)
 [![Patreon](https://img.shields.io/badge/SUPPORT-Patreon-ff424d?logo=patreon)](https://www.patreon.com/PhilsModules)
 
 <br>
 
-**Find missing artwork for your actors instantly.**
+**Finde fehlende Bilder für deine Akteure sofort.**
 <br>
-*Finde fehlende Bilder für deine Akteure sofort.*
+*Find missing artwork for your actors instantly.*
 
+<br>
+
+<a href="#-deutsche-anleitung"><img src="https://img.shields.io/badge/%20-Deutsche_Anleitung-black?style=for-the-badge&logo=germany&logoColor=red" alt="Deutsche Anleitung"></a> <a href="#-english-instructions"><img src="https://img.shields.io/badge/%20-English_Instructions-black?style=for-the-badge&logo=united-kingdom&logoColor=white" alt="English Instructions"></a>
 </div>
+
+> [!TIP]
+> ### 🛡️ Safety First / Sicherheitshinweis
+> **English:** Since this module can modify hundreds of actors at once, it is recommended to make a backup of your world before running a mass replacement.
+>
+> **Deutsch:** Da dieses Modul hunderte Akteure auf einmal ändern kann, empfiehlt es sich, vor einer Massen-Ersetzung ein Backup deiner Welt zu erstellen.
 
 <br>
 
@@ -28,20 +37,30 @@ Du hast dir ein teures, wunderschönes Token-Art-Pack gekauft oder ein tolles Mo
 
 ## 🚀 Funktionen
 
-*   🔍 **Smart Scanning:** Findet Bilder auch tief versteckt in Modul-Ordnern.
-*   ↔️ **Bidirektionale Suche:** Findet "Walkena" Bilder auch für "Walkena Priestess" Akteure (und umgekehrt).
-*   👀 **Vergleichs-Ansicht:** Siehe "Aktuelles Bild" und "Neuer Vorschlag" direkt nebeneinander.
-*   📏 **Metadaten:** Zeigt Auflösung (z.B. 512x512) und Dateigröße an, damit du deine Welt nicht aufbläht.
-*   🛡️ **Token Filter:** Option, reine Token-Bilder zu ignorieren, wenn du lieber Portraits suchst.
-*   🇩🇪 **Lokalisiert:** Komplett auf Deutsch verfügbar.
+* 🔍 **Smart Scanning:** Findet Bilder auch tief versteckt in Modul-Ordnern.
+* ↔️ **Bidirektionale Suche:** Findet "Walkena" Bilder auch für "Walkena Priestess" Akteure (und umgekehrt).
+* 👀 **Vergleichs-Ansicht:** Siehe "Aktuelles Bild" und "Neuer Vorschlag" direkt nebeneinander.
+* 📏 **Metadaten:** Zeigt Auflösung (z.B. 512x512) und Dateigröße an, damit du deine Welt nicht aufbläht.
+* 🛡️ **Token Filter:** Option, reine Token-Bilder zu ignorieren, wenn du lieber Portraits suchst.
+
+## 📦 Installation
+
+1.  Öffne Foundry VTT.
+2.  Gehe zum Reiter **Add-on Modules**.
+3.  Klicke auf **Install Module**.
+4.  Füge die folgende **Manifest URL** unten ein:
+    ```text
+    [https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json](https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json)
+    ```
+5.  Klicke auf **Install**.
 
 ## 📖 Bedienung
 
-1.  Öffne das Modul (z.B. über Makro oder Button).
-2.  Das Modul scannt alle Akteure und Dateien.
-3.  Ein Fenster öffnet sich mit allen Vorschlägen.
-4.  Wähle aus, was du behalten oder ändern willst.
-5.  Klicke auf **"Alle ausgewählten ersetzen"**.
+1.  **Starten:** Öffne das Modul (über die Makro-Leiste oder Einstellungen).
+2.  **Scan:** Das Modul durchsucht alle Akteure und installierten Bild-Dateien.
+3.  **Review:** Ein Fenster öffnet sich mit allen Vorschlägen (Alt vs. Neu).
+4.  **Auswahl:** Wähle aus, welche Bilder du übernehmen möchtest.
+5.  **Anwenden:** Klicke auf **"Alle ausgewählten ersetzen"**.
 
 ---
 
@@ -55,20 +74,30 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
 
 ## 🚀 Key Features
 
-*   🔍 **Smart Scanning:** Finds images deep inside module folders.
-*   ↔️ **Bidirectional Search:** Finds "Walkena" art for "Walkena Priestess" actors.
-*   👀 **Compare View:** See "Current Art" vs "New Suggestion" side-by-side.
-*   📏 **Metadata:** Shows resolution and file size to avoid world bloat.
-*   🛡️ **Token Filter:** Option to ignore token-style art if you prefer portraits.
-*   🇺🇸 **Localized:** Fully available in English.
+* 🔍 **Smart Scanning:** Finds images deep inside module folders.
+* ↔️ **Bidirectional Search:** Finds "Walkena" art for "Walkena Priestess" actors.
+* 👀 **Compare View:** See "Current Art" vs "New Suggestion" side-by-side.
+* 📏 **Metadata:** Shows resolution and file size to avoid world bloat.
+* 🛡️ **Token Filter:** Option to ignore token-style art if you prefer portraits.
+
+## 📦 Installation
+
+1.  Open Foundry VTT.
+2.  Go to the **Add-on Modules** tab.
+3.  Click **Install Module**.
+4.  Paste the following **Manifest URL** into the field:
+    ```text
+    [https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json](https://github.com/PhilsModules/phils-art-replacer/releases/latest/download/module.json)
+    ```
+5.  Click **Install**.
 
 ## 📖 How to Use
 
-1.  Open the module.
-2.  It scans all actors and files.
-3.  Review the suggested matches.
-4.  Select what to keep or change.
-5.  Click **"Replace All Selected"**.
+1.  **Launch:** Open the module.
+2.  **Scan:** It scans all actors and files automatically.
+3.  **Review:** Review the suggested matches side-by-side.
+4.  **Select:** Choose what to keep or change.
+5.  **Apply:** Click **"Replace All Selected"**.
 
 <div align="center">
     <h2>❤️ Support the Development</h2>
