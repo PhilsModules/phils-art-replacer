@@ -56,7 +56,7 @@ Du hast dir ein teures, wunderschönes Token-Art-Pack gekauft oder ein tolles Mo
 
 ## 📖 Bedienung
 
-1.  **Starten:** Öffne das Modul (über die Makro-Leiste oder Einstellungen).
+1.  **Starten:** Öffne das Modul (Button oben bei den Actors).
 2.  **Scan:** Das Modul durchsucht alle Akteure und installierten Bild-Dateien.
 3.  **Review:** Ein Fenster öffnet sich mit allen Vorschlägen (Alt vs. Neu).
 4.  **Auswahl:** Wähle aus, welche Bilder du übernehmen möchtest.
@@ -93,7 +93,7 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
 
 ## 📖 How to Use
 
-1.  **Launch:** Open the module.
+1.  **Launch:** Open the module. (Button on the Actor tab)
 2.  **Scan:** It scans all actors and files automatically.
 3.  **Review:** Review the suggested matches side-by-side.
 4.  **Select:** Choose what to keep or change.
@@ -109,5 +109,6 @@ Did you buy an expensive, beautiful Token Art Pack? Or installed a module with g
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
 
 
