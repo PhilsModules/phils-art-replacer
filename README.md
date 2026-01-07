@@ -33,6 +33,14 @@ _Finde fehlende Bilder für deine Akteure sofort._
 
 <br>
 
+<div align="center">
+<img src="https://github.com/PhilsModules/phils-art-replacer/blob/main/cover.png" alt="Preview" width="600">
+</div>
+
+<br>
+
+<br>
+
 # <img src="https://flagcdn.com/48x36/gb.png" width="28" height="21" alt="EN"> English Instructions
 
 **Make your world shine – without thousands of clicks.**
@@ -134,3 +142,4 @@ See `LICENSE` file for details.
     <br><br>
     <p><i>Made with ❤️ for the Foundry VTT Community</i></p>
 </div>
+
